@@ -45,13 +45,14 @@
 	<nav class="navbar navbar-expand-lg navbar-light bg-white">
 		<div class="container">
 			<a class="navbar-brand" href="{{ route('index') }}">
-				<img src="{{ URL::asset('/assets/dist/images/logo.png') }}" alt="Sham Theme">
+				<!-- <img src="{{ URL::asset('/assets/dist/images/logo.png') }}" alt="Sham Theme"> -->
+				<img src="{{ URL::asset('/assets/images/coffee/logo.png') }}" alt="">
 			</a>
 
 			<ul class="nav navbar-icons ml-auto order-lg-2">
 				<li class="nav-item mr-3 shopping-cart">
 					<a href="#!" class="li-icon" data-toggle="dropdown" aria-haspopup="false" aria-expanded="false">
-						<i class="bx bx-shopping-bag"></i>
+						<i class='bx bx-shopping-bag'></i>
 						<span class="badge badge-secondary rounded-circle">4</span>
 					</a>
 					<div class="dropdown-menu dropdown-menu-right border-0 shadow">
@@ -111,20 +112,12 @@
 						</ul>
 					</div>
 				</li>
-				<li class="nav-item">
+				<!-- <li class="nav-item">
 					<a href="#!" class="li-icon" id="trigger-overlay"><i class="bx bx-search"></i></a>
-				</li>
+				</li> -->
 			</ul>
 
-			<button
-					class="navbar-toggler ml-0 ml-sm-3 order-lg-3"
-					type="button"
-					data-toggle="collapse"
-					data-target="#navbar"
-					aria-controls="navbar"
-					aria-expanded="false"
-					aria-label="Toggle navigation"
-			>
+			<button class="navbar-toggler ml-0 ml-sm-3 order-lg-3" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
 
